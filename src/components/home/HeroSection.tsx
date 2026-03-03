@@ -47,7 +47,7 @@ export function HeroSection() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.4, delay: 0.4, ease: "easeOut" as const }}
         className="relative mx-3 sm:mx-6 lg:mx-10 rounded-2xl overflow-hidden border border-black/[0.06] shadow-sm"
-        style={{ height: "clamp(300px, 46vw, 560px)" }}
+        style={{ height: "clamp(340px, 52vw, 680px)" }}
       >
         <AsciiCanvas />
       </motion.div>
